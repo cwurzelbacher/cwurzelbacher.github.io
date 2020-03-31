@@ -1,5 +1,6 @@
 Style.css
-body {background-color: lightblue;
+body {
+	background-color: lightblue;
 }
 h1, p {
 	color: #FF1493;

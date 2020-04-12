@@ -2,21 +2,83 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
-	<title>Silly Photos of My Cat</title>
+	<title>F.S. Website</title>
 </head>
 <body>
+	<div class="hero-image">
+  <div class="hero-text">
+    <h1><i>Own Your Money.Don't Let Your Money Own You</i></h1>
+  </div>
+</div>
 	<img src="images/piggybank.jpg">
-	<h1><i>Own Your Money.Don't Let Money Own You</i></h1>
 	<p>Money, everyone wants it and noone seems to have enough of it! Find out how to better manage your money in this website by learning about:</p>
 	<ul>
 		<li> Home Ownership </li>
 		<li>Savings</li>
 		<li>Retirement Planning</li>
-		<li> Financial Best Prctices</li>
+		<li> Financial Best Practices</li>
 	</ul>
 	<p> Contact Me: cwurzelbacher@brightfield.com 
 		<a href="mailto:cwurzelbacher@brightfield.com?Subject=Hello%20again"
 		target="_top">Send Mail</a>
 	</p>
 </body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
 </html>

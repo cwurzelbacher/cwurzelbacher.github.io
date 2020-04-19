@@ -1,6 +1,6 @@
 body {
 	
-	background-color: #F0FFFF;
+	background-color: #FFFFFF;
 }
 h1 {
 	color: #00008B;
@@ -16,6 +16,11 @@ h1 {
 {
 	color:#00008B;
 }
+
+img src="images/rick.jpg" alt="Rick"
+		{vertical-align: middle;
+		}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */

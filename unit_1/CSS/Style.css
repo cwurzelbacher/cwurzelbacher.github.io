@@ -1,6 +1,16 @@
 body {
+	text-align: center;
+   background-size: cover;
+  	background: url("images/financial.png"); 
+  		color: #fff;  
+  		font-family: 
+  		Helvetica;}
+}
 	background-color: #ff3399;
 }
 h1, p {
 	color: #F8F8FF;
+}
+{
+	img src="images/rick.jpg" alt="Rick"{vertical-align:middle;
 }

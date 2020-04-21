@@ -54,4 +54,12 @@ input[type=submit]:hover {
 	justify-content: center;
 	flex-direction: column;
 	display:flex;
+
+}
+
+p {
+	font-family: palatino, georgia, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
 }

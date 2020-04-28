@@ -2,6 +2,22 @@ body {
 	
 	background-color: #FFFFFF;
 }
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+  article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+ div{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
 h1 {
 	color: #00008B;
 }
@@ -14,6 +30,7 @@ h1 {
   padding: 5px;
 }
 
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -65,4 +82,17 @@ p {
 
 strong {
 			font-size:30px;
+}
+
+  aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+ footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
